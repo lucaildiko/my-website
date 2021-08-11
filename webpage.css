@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(62, 66, 57);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+header {
+  height: 250px;
+  background-image: url("./images/yoga.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  position: absolute;
+   bottom: 10px;
+   }
+
+   ul {
+
+    list-style-type: none;
+    margin-left: 40px;
+   }
+
+   li {
+display:inline;
+float: left;
+   }
+  li a {
+    display: block;
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+  }
+  
+  .hero__image {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+  
+  }
+  .first {
+   display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+
+.first .item {
+  flex-basis: 49%;
+  
+}
+  .item img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    object-fit: cover;
+  }
+
+/* about */
+
+.about_us {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.about .first {
+ flex-basis: 49%;
+
+}
+
+.first img {
+ width: 90%;
+ height: 500px;
+  object-fit: cover;
+}
+
+
+.first p {
+  color: #fff;
+  line-height: 150%;
+  font-size: 1.2rem;
+  text-align:justify;
+  font-weight: bold;
+}
+
+.first h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* form */
+
+.form-details {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+label, input, textarea {
+  display:block;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 50%;
+  padding: 8px 16px;
+  border: 0;
+  font-size: 1rem;
+}
+input[type=submit] {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 1.2rem;
+}
+
+
